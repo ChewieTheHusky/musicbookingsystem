@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+body {
+  --stripe: #379617;
+  --bg:#FE1A00;
+
+  background: linear-gradient(135deg, var(--bg) 10%, transparent 45%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+}
